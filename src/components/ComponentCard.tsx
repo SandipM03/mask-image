@@ -19,9 +19,8 @@ export default function ComponentCard({
     children,
 }: ComponentCardProps) {
     return (
-        <div className="component-card">
-            <div className="card-preview">{children}</div>
-            <div className="card-info">
+        <div className=" flex flex-col lg:flex-row mx-4 my-6 md:mx-8 md:my-8">
+            <div className="card-info flex-1 p-5 md:p-6 flex flex-col justify-center order-2 lg:order-1">
                 <h3 className="card-title">{title}</h3>
                 <p className="card-description">{description}</p>
                 {tags.length > 0 && (
@@ -36,6 +35,9 @@ export default function ComponentCard({
                         ))}
                     </div>
                 )}
+            </div>
+            <div className="flex-1 min-h-[200px] md:min-h-[280px] flex items-center justify-center p-4 order-1 ">
+                {children}
             </div>
         </div>
     );

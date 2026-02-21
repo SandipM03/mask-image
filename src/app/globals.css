@@ -257,9 +257,15 @@ body {
 
 /* ===== SECTION ===== */
 .section {
-  padding: 80px 24px;
+  padding: 40px 12px;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 80px 24px;
+  }
 }
 
 .section-header {
@@ -285,13 +291,13 @@ body {
 /* ===== COMPONENT GRID ===== */
 .component-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  gap: 32px;
+  grid-template-columns: 1fr;
+  gap: 24px;
 }
 
-@media (max-width: 560px) {
+@media (min-width: 1024px) {
   .component-grid {
-    grid-template-columns: 1fr;
+    gap: 32px;
   }
 }
 
@@ -312,14 +318,13 @@ body {
 
 .card-preview {
   width: 100%;
-  min-height: 320px;
+  min-height: 280px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
   background: var(--bg-secondary);
-  border-bottom: 1px solid var(--border-color);
 }
 
 .card-info {
