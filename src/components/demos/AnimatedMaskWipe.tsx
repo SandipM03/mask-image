@@ -142,7 +142,7 @@ export default function AnimatedMaskWipe() {
                             After
                         </h4>
                         <p style={{ fontSize: "0.8rem", color: "var(--text-secondary)" }}>
-                            ✨ Mask wipe complete
+                             Mask wipe complete
                         </p>
                     </div>
                 </div>

@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 :root {
-  --bg-primary: #0a0a0f;
+  --bg-primary: #191919;
   --bg-secondary: #111118;
   --bg-card: #16161f;
   --bg-card-hover: #1c1c28;
@@ -12,8 +12,8 @@
   --border-glow: rgba(139, 92, 246, 0.3);
 
   --text-primary: #f0f0f5;
-  --text-secondary: #8888a0;
-  --text-muted: #555570;
+  --text-secondary: #f8f8f8;
+  --text-muted: #cccccc;
 
   --accent-cyan: #06b6d4;
   --accent-violet: #8b5cf6;

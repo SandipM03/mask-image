@@ -26,7 +26,7 @@ export default function Home() {
     <>
     <div className="flex flex-col justify-end items-end p-4 mr-16">
     <h1 className="text-3xl font-bold p-4">
-     mask-image/mask-composite
+     mask-image & mask-composite Library
     </h1>
      <p className="text-sm text-gray-400 p-4 ">Components built by 
        
@@ -149,7 +149,7 @@ export default function Home() {
             </ComponentCard>
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             custom={2}
             variants={fadeUp}
             initial="hidden"
@@ -166,9 +166,9 @@ export default function Home() {
             >
               <MaskCompositeOps />
             </ComponentCard>
-          </motion.div>
+          </motion.div> */}
 
-          <motion.div
+          {/* <motion.div
             custom={3}
             variants={fadeUp}
             initial="hidden"
@@ -186,7 +186,7 @@ export default function Home() {
             >
               <ShapeMaskGallery />
             </ComponentCard>
-          </motion.div>
+          </motion.div> */}
 
           <motion.div
             custom={4}
